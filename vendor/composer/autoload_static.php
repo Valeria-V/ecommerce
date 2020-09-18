@@ -6,8 +6,18 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitaa120b6eef4fd341e82d9c6cba90801c
 {
-    public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/usariogithub/php-classes/src',
+    public static $prefixLengthsPsr4 = array (
+        'H' => 
+        array (
+            'Hcode\\' => 6,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Hcode\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/usariogithub/php-classes/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -41,7 +51,8 @@ class ComposerStaticInitaa120b6eef4fd341e82d9c6cba90801c
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->fallbackDirsPsr4 = ComposerStaticInitaa120b6eef4fd341e82d9c6cba90801c::$fallbackDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitaa120b6eef4fd341e82d9c6cba90801c::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitaa120b6eef4fd341e82d9c6cba90801c::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInitaa120b6eef4fd341e82d9c6cba90801c::$prefixesPsr0;
             $loader->classMap = ComposerStaticInitaa120b6eef4fd341e82d9c6cba90801c::$classMap;
 
