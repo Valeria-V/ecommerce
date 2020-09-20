@@ -16,7 +16,7 @@ class ComposerStaticInitaa120b6eef4fd341e82d9c6cba90801c
     public static $prefixDirsPsr4 = array (
         'Hcode\\' => 
         array (
-            0 => __DIR__ . '/..' . '/usariogithub/php-classes/src',
+            0 => __DIR__ . '/..' . '/hcodebr/php-classes/src',
         ),
     );
 

@@ -1,5 +1,5 @@
 {
-    "name": "usariogithub/ecommerce",
+    "name": "usuariodogit/ecommerce",
     "authors": [
         {
             "name": "Valeria",
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Hcode\\": "vendor\\usariogithub\\php-classes\\src"
+            "Hcode\\":"vendor\\hcodebr\\php-classes\\src"
         }
     }
 }
