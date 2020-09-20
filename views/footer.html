@@ -6,7 +6,7 @@
 		<div class="row">
 			<div class="col-md-3 col-sm-6">
 				<div class="footer-about-us">
-					<h2>Hcode Store</h2>
+					<h2>Valéria-V Store</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
 					<div class="footer-social">
 						<a href="https://www.facebook.com/hcodebr" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -35,19 +35,18 @@
 						<li><a href="#">Categoria Dois</a></li>
 						<li><a href="#">Categoria Três</a></li>
 						<li><a href="#">Categoria Quarto</a></li>
-						<li><a href="#">Categoria Cinco</a></li>
 					</ul>                        
 				</div>
 			</div>
 			
 			<div class="col-md-3 col-sm-6">
 				<div class="footer-newsletter">
-					<h2 class="footer-wid-title">Newsletter</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus!</p>
+					<h2 class="footer-wid-title">Novidades</h2>
+					<p>Insira seu e-mail abaixo e fique por dentro de todas as nossas ofertas e novidades!</p>
 					<div class="newsletter-form">
 						<form action="#">
-							<input type="email" placeholder="Type your email">
-							<input type="submit" value="Subscribe">
+							<input type="email" placeholder="insira seu e-mail">
+							<input type="submit" value="Enviar">
 						</form>
 					</div>
 				</div>
@@ -61,7 +60,7 @@
 		<div class="row">
 			<div class="col-md-8">
 				<div class="copyright">
-					<p>&copy; 2017 Hcode Treinamentos. <a href="http://www.hcode.com.br" target="_blank">hcode.com.br</a></p>
+					<p>&copy; 2020 Valeria Oliveira - Curso PHP7. <a href="http://www.hcode.com.br" target="_blank">hcode.com.br</a></p>
 				</div>
 			</div>
 			
